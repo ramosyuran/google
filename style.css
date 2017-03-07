@@ -1,3 +1,7 @@
+body{
+  vertical-align: baseline;
+}
+
 header{
   height: 10%;
   width: 100%;
@@ -27,19 +31,19 @@ header .button1{
 }
 
 section{
- height: 80%;
+ height: 70%;
  width: 100%;
  display: flex;
  position: fixed;
  align-items: center;
  justify-content: center;
+ font-family: Arial, sans-serif;
 }
 
 section #g{
   text-transform: uppercase;
   color: #2986FF;
   font-size: 120px;
-  font-family: arial sans-serif;
 }
 
 section #o1{
@@ -49,5 +53,20 @@ section #o1{
 
 section #o2{
   color: #F7EE00;
+  font-size: 80px;
+}
+
+section #g2{
+  color: #2986FF;
+  font-size: 80px;
+}
+
+section #l{
+  color: #2FAB1F;
+  font-size: 80px;
+}
+
+section #e{
+  color: #FF1000;
   font-size: 80px;
 }
