@@ -1,0 +1,53 @@
+header{
+  height: 10%;
+  width: 100%;
+}
+
+header ul{
+  float: right;
+  list-style: none;
+}
+
+header li{
+  display: inline-block;
+  margin: 0.5em;
+  font-size: 15px;
+}
+
+header img{
+  width: 18px;
+}
+
+header .button1{
+  background-color: #2986FF;
+  border-radius: 5%;
+  border: none;
+  color: white;
+  padding: 0.5em;
+}
+
+section{
+ height: 80%;
+ width: 100%;
+ display: flex;
+ position: fixed;
+ align-items: center;
+ justify-content: center;
+}
+
+section #g{
+  text-transform: uppercase;
+  color: #2986FF;
+  font-size: 120px;
+  font-family: arial sans-serif;
+}
+
+section #o1{
+  color: #FF1000;
+  font-size: 80px;
+}
+
+section #o2{
+  color: #F7EE00;
+  font-size: 80px;
+}
