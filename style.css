@@ -12,7 +12,7 @@ header{
   text-align: right;
 }
 
-header a, header .button1{
+header a{
   display: inline-block;
   color: #494952;
   margin: 0.5em;
@@ -35,7 +35,7 @@ header img{
   width: 18px;
 }
 
-header .button1{
+header .log{
   background-color: #2986FF;
   border-radius: 5%;
   border: none;
@@ -43,11 +43,15 @@ header .button1{
   padding: 0.6em;
 }
 
+header .log:hover{
+  text-decoration: none;
+}
+
 /*section*/
 
 section{
   width: 100%;
-  height: 575px;
+  height: 580px;
 }
 
 .google, .search, .link{
@@ -74,7 +78,7 @@ section{
   padding: 0.7em;
   border-radius: 3%;
   background: #EDEDED;
-  color: #9C9C9C;
+  color: #7A7A7A;
   font-weight: 600;
   text-decoration: none;
   font-size: 15px;
@@ -118,19 +122,21 @@ section{
 footer{
   width: 100%;
   height: 50px;
-  border-top: 1px #BFBFBF solid;
-  background: #EDEDED;
-  font-size: 14px;
+  border-top: 0.5px #B5B5B5 solid;
+  background-color: #EDEDED;
+  font-size: 13px;
 }
 
 .left{
   float: left;
-  padding: 1em;
+  padding: auto;
+  margin: 1.3em 2em;
 }
 
 .right{
   float: right;
-  padding: 1em;
+  padding: auto;
+  margin: 1.3em 2em;
 }
 
 footer a{
