@@ -1,5 +1,6 @@
 body{
   vertical-align: baseline;
+  font-family: Arial, sans-serif;
 }
 
 header{
@@ -41,7 +42,7 @@ header .button1{
 
 /*section*/
 
-.google, .search{
+.google, .search, .link{
  display: flex;
  position: fixed;
  align-items: center;
@@ -51,12 +52,32 @@ header .button1{
 .google{
   height: 60%;
   width: 100%;
-  font-family: Arial, sans-serif;
 }
 
 .search{
   height: 90%;
   width: 100%;
+}
+
+.link{
+  height: 110%;
+  width: 100%;
+}
+
+section a{
+  margin: auto 2em;
+  padding: 0.7em;
+  border-radius: 3%;
+  background: #EDEDED;
+  color: #9C9C9C;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+section a:hover{
+  border: 1px #BFBFBF solid;
+  color: #4A4A4A;
 }
 
 section #g{
