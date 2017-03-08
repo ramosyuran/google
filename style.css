@@ -5,17 +5,26 @@ body{
 header{
   height: 10%;
   width: 100%;
+  text-align: right;
 }
 
-header ul{
-  float: right;
-  list-style: none;
-}
-
-header li{
+header a, header .button1{
   display: inline-block;
+  color: #494952;
   margin: 0.5em;
-  font-size: 15px;
+  font-size: 13px;
+}
+
+header a{
+  text-decoration: none;
+}
+
+header a:hover{
+  text-decoration: underline;
+}
+
+header img:hover{
+  color: grey;
 }
 
 header img{
@@ -27,17 +36,27 @@ header .button1{
   border-radius: 5%;
   border: none;
   color: white;
-  padding: 0.5em;
+  padding: 0.6em;
 }
 
-section{
- height: 70%;
- width: 100%;
+/*section*/
+
+.google, .search{
  display: flex;
  position: fixed;
  align-items: center;
  justify-content: center;
- font-family: Arial, sans-serif;
+}
+
+.google{
+  height: 60%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.search{
+  height: 90%;
+  width: 100%;
 }
 
 section #g{
@@ -66,7 +85,15 @@ section #l{
   font-size: 80px;
 }
 
-section #e{
+.google #e{
   color: #FF1000;
   font-size: 80px;
+}
+
+section input[type="text"]{
+  width: 600px;
+  height: 45px;
+  border-radius: 0;
+  box-shadow: 0 2px 1px #D4D4D4;
+  border: 1px #D4D4D4 solid;
 }
