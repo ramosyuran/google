@@ -3,6 +3,8 @@ body{
   font-family: Arial, sans-serif;
 }
 
+/*header*/
+
 header{
   height: 10%;
   width: 100%;
@@ -47,24 +49,30 @@ header .button1{
  position: fixed;
  align-items: center;
  justify-content: center;
+ width: 100%;
 }
 
 .google{
-  height: 60%;
-  width: 100%;
+  height: 50%;
 }
 
 .search{
-  height: 90%;
-  width: 100%;
+  height: 80%;
 }
 
 .link{
-  height: 110%;
-  width: 100%;
+  height: 100%;
 }
 
-section a{
+.search input[type="text"]{
+  width: 600px;
+  height: 45px;
+  border-radius: 0;
+  box-shadow: 0 2px 1px #D4D4D4;
+  border: 1px #D4D4D4 solid;
+}
+
+.link a{
   margin: auto 2em;
   padding: 0.7em;
   border-radius: 3%;
@@ -75,46 +83,37 @@ section a{
   font-size: 15px;
 }
 
-section a:hover{
+.link a:hover{
   border: 1px #BFBFBF solid;
   color: #4A4A4A;
 }
 
-section #g{
+#g{
   text-transform: uppercase;
   color: #2986FF;
   font-size: 120px;
 }
 
-section #o1{
-  color: #FF1000;
+#o1, #o2, #g2, #l, #e{
   font-size: 80px;
 }
 
-section #o2{
+#o1{
+  color: #FF1000;
+}
+
+#o2{
   color: #F7EE00;
-  font-size: 80px;
 }
 
-section #g2{
+#g2{
   color: #2986FF;
-  font-size: 80px;
 }
 
-section #l{
+#l{
   color: #2FAB1F;
-  font-size: 80px;
 }
 
-.google #e{
+#e{
   color: #FF1000;
-  font-size: 80px;
-}
-
-section input[type="text"]{
-  width: 600px;
-  height: 45px;
-  border-radius: 0;
-  box-shadow: 0 2px 1px #D4D4D4;
-  border: 1px #D4D4D4 solid;
 }
