@@ -51,22 +51,14 @@ section{
 }
 
 .google, .search, .link{
+ height: auto;
  display: flex;
- position: fixed;
  align-items: center;
  justify-content: center;
 }
 
-.google{
-  height: 50%;
-}
-
-.search{
-  height: 80%;
-}
-
 .link{
-  margin-top: 3.5em;
+  margin-top: 2em;
 }
 
 .search input[type="text"]{
@@ -126,6 +118,27 @@ section{
 footer{
   width: 100%;
   height: 50px;
-  margin: auto;
+  border-top: 1px #BFBFBF solid;
   background: #EDEDED;
+  font-size: 14px;
+}
+
+.left{
+  float: left;
+  padding: 1em;
+}
+
+.right{
+  float: right;
+  padding: 1em;
+}
+
+footer a{
+  margin: 1em;
+  color: #545454;
+  text-decoration: none;
+}
+
+footer a:hover{
+  text-decoration: underline;
 }
